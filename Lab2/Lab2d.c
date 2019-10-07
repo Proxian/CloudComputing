@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
     double start = MPI_Wtime();
 
     if (rank == 0)
-        strcpy(message,"Hello droz from #0!\n");
+        strcpy(message,"Hello Ryan from #0!\n");
 
     MPI_Bcast(message, 22, MPI_CHAR, 0,MPI_COMM_WORLD);
     printf("Message at proc#%2d: %.21s\n",rank,message);
