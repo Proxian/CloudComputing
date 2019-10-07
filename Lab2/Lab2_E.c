@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 
     double start = MPI_Wtime();
 
-    sprintf(m2, "Hello, Droz  from #%2d!\n",rank);
+    sprintf(m2, "Hello, Ryan  from #%2d!\n",rank);
     
 
     if (rank == 0) {
