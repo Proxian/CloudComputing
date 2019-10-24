@@ -1,0 +1,2 @@
+ec2-user:~/environment $ python Lab4b.py ON
+{'InstanceMonitorings': [{'InstanceId': 'i-08dc8b41c547fcfad', 'Monitoring': {'State': 'pending'}}], 'ResponseMetadata': {'RequestId': 'd3316b03-b70d-482b-9668-ce29c9c07aa4', 'HTTPStatusCode': 200, 'HTTPHeaders': {'content-type': 'text/xml;charset=UTF-8', 'content-length': '424', 'date': 'Thu, 24 Oct 2019 19:45:59 GMT', 'server': 'AmazonEC2'}, 'RetryAttempts': 0}}
